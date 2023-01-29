@@ -7,19 +7,22 @@
 }
 
 html,body{
-    background: linear-gradient(#0F53FF 20%, #0755FE 20%, #051836 80%);
+    background: linear-gradient(#0F53FF, #0755FE, #051836);
+    background-repeat: no-repeat;
+    background-size: cover;
     font-size: 100%;
 }
 
 .container{
     width: 90vw;
-    height: 120vh;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
+ /* CABEÇALHO */
 
 .header{
     background-color: #FFFFFF;
@@ -57,6 +60,8 @@ header{
 
 }
 
+/* SOBRE A PÁGINA */
+
 .text-sobre {
     padding-top: 30px;
     color: #FFFFFF;
@@ -80,9 +85,51 @@ header{
     flex-direction: column;
     align-items: center;
     width: 59vw;
-    height: 60vh;
+    height: 70vh;
     background-image: url("../img/insta-design/b1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
+/* INFORMAÇÕES */
+
+.info {
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    width: 59vw;
+    height: 60vh
+}
+
+
+/* POSTAGENS SUA MUSICA E YOUTUBE */
+
+.sm-yt {
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    width: 59vw;
+    height: 60vh
+}
+
+
+/* INSTAGRAM */
+
+.posts-insta {
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    width: 59vw;
+    height: 60vh
+}
+
+
+/* RODAPÉ */
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    width: 59vw;
+    height: 60vh
+}
