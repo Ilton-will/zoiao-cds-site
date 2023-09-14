@@ -31,7 +31,7 @@
     </div>
         <div class="main-container">
 
-            <div class="container">
+            <div class="container-servicos">
                 <div id="element" class="servicos">   
 
                     <div class="card-completo">
@@ -94,9 +94,13 @@
                         
                         </div>
                         <div class="but-produt">
-                            <button>Comprar</button>
+                            <button id="but-modal1">Comprar</button>
                         </div>
                     </div>
+                    <dialog id="modal1" class="modal">
+                        <h2>Teste </h2>
+                        <p>testando aq rapidao</p>
+                    </dialog>
                     <div class="produt">
                         <div class="prod-img">
                             <img src="img/imgs aleatorias/zoiao.jpeg" alt="copo">
@@ -107,9 +111,13 @@
                          
                         </div>
                         <div class="but-produt">
-                            <button>Comprar</button>
+                            <button id="but-modal2">Comprar</button>
                         </div>
                     </div>
+                    <dialog id="modal2" class="modal">
+                        <h2>Teste 2 </h2>
+                        <p>testando aq rapidao</p>
+                    </dialog>
                     <div class="produt">
                         <div class="prod-img">
                             <img src="img/imgs aleatorias/banner.jpeg" alt="copo">
@@ -119,15 +127,23 @@
                             <p class="preco">R$80,00</p>
                         </div>
                         <div class="but-produt">
-                            <button>Comprar</button>
+                            <button id="but-modal3">Comprar</button>
                         </div>
+                        <dialog id="modal3" class="modal">
+                            <h2>Teste 3 </h2>
+                            <p>testando aq rapidao</p>
+                        </dialog>
                     </div>
                 </div>
             </div>
 
-            <div class="sua-musica">
-                <div class="msc-banner">
-                    <div class="blue-background">
+            <div class="sua-musica"> 
+                <div class="outside-container">
+                    <div class="msc-banner">
+                        <div class="blue-background">
+                        </div>
+                    </div>
+                    <div class="text-container">
                         <h2>SUA MÚSICA</h2>
                     </div>
                 </div>
@@ -199,7 +215,9 @@
             </div>
 
             <div class="youtube">
-                <div class="yt-banner">
+                <div class="outside-container-yt">
+                    <div class="yt-banner">
+                    </div>
                     <div class="yt-minor-banner">
                         <h2>YOUTUBE</h2>
                         <p>Últimos Lançados</p>
@@ -210,9 +228,9 @@
                     <iframe class="iframe-yt" src="https://www.youtube.com/embed/Qk2u_fFqh08" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
                 <div class="mais-videos">
-                    <div class="vid"><iframe class="vid-ytb" src="https://www.youtube.com/embed/n954ffjMBvY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
-                    <div class="vid"><iframe class="vid-ytb" src="https://www.youtube.com/embed/86Y7H4wqXHc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
-                    <div class="vid"><iframe class="vid-ytb" src="https://www.youtube.com/embed/VbAGIRMlHvE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+                    <div class="vid"><a href="https://www.youtube.com/watch?v=VbAGIRMlHvE" target="_blank" class="vid-ytb"><img src="img/thumbytb/thumb1.jpg" alt="foto de paredao" class="vid-ytb"></a></div>
+                    <div class="vid"><a href="https://www.youtube.com/watch?v=86Y7H4wqXHc" target="_blank" class="vid-ytb"><img src="img/thumbytb/thumb2.jpg" alt="foto de paredao" class="vid-ytb"></a></div>
+                    <div class="vid"><a href="https://www.youtube.com/watch?v=n954ffjMBvY" target="_blank" class="vid-ytb"><img src="img/thumbytb/thumb3.jpg" alt="foto de paredao" class="vid-ytb"></a></div>
                 </div>
 
                 <div class="button-youtube-div">
@@ -231,11 +249,21 @@
             </div>
     
             <div class="reels">
-                <a href=""><img src="img/insta-design/Captura de tela 2022-10-21 011108.png" alt=""></a>
-                <a href=""><img src="img/insta-design/Captura de tela 2022-10-21 011147.png" alt=""></a>
-                <a href=""><img src="img/insta-design/Captura de tela 2022-10-21 011229.png" alt=""></a>
-                <a href=""><img src="img/insta-design/Captura de tela 2022-10-21 011300.png" alt=""></a>
-                <a href=""><img src="img/insta-design/Captura de tela 2022-10-21 011325.png" alt=""></a>
+                <div>
+                    <a class="insta-link" href=""><img class="recorte" src="img/insta-design/Captura de tela 2022-10-21 011108.png" alt=""><div class="espace"><div class="player"></div></div></a>
+                </div>
+                <div>
+                    <a class="insta-link" href=""><img class="recorte" src="img/insta-design/Captura de tela 2022-10-21 011147.png" alt=""><div class="espace"><div class="player"></div></div></a>
+                </div>
+                <div>
+                    <a class="insta-link" href=""><img class="recorte" src="img/insta-design/Captura de tela 2022-10-21 011229.png" alt=""><div class="espace"><div class="player"></div></div></a>
+                </div>
+                <div>
+                    <a class="insta-link" href=""><img class="recorte" src="img/insta-design/Captura de tela 2022-10-21 011300.png" alt=""><div class="espace"><div class="player"></div></div></a>
+                </div>                    
+                <div>
+                    <a class="insta-link" href=""><img class="recorte" src="img/insta-design/Captura de tela 2022-10-21 011325.png" alt=""><div class="espace"><div class="player"></div></div></a>
+                </div>
             </div>
         </div>
 
