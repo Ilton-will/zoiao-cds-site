@@ -1,9 +1,11 @@
+@media (max-width: 896px) {
 
 * {
     margin: 0;
     padding: 0;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
+
 }
 
 html, body, h1, h2, h3, p{
@@ -62,6 +64,7 @@ body{
     justify-content: space-between;
     width: 1200px;
     margin: 0 auto;
+    display: none;
 }
 
 .img-header{
@@ -263,6 +266,7 @@ body{
     text-align: center;
     margin: 40px 0px 40px;
     height: 600px;
+    display: none;
 }
 
 .produtos h2{
@@ -361,6 +365,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    display: none;
 }
 
 .outside-container{
@@ -597,7 +602,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-
+    display: none;
 }
 
 .youtube-video iframe{
@@ -605,6 +610,7 @@ body{
     width: 750px;
     height: 500px;
     z-index: 1;
+    display: none;
 }
 
 .mais-videos{
@@ -615,15 +621,18 @@ body{
     margin: 0 auto;
     justify-content: space-between;
     padding-top: 20px;
+    display: none;
 }
 
 .vid{
     height: 120px;
+    display: none;
 }
 
 .vid-ytb {
     width: 240px;
     height: 120px;
+    display: none;
 }
 
 
@@ -634,6 +643,7 @@ body{
     width: 750px;
     height: 5vh;
     text-align: center;
+    display: none;
 }
 
 .button-youtube{
@@ -645,18 +655,21 @@ body{
     background: #BA0000;
     font-size: 1.5rem;
     transition: 0.5s;
+    display: none;
 }
 
 
 .button-youtube:hover{
     transition: 0.5s;
     background: #750000;
+    display: none;
     
 }
 
 .iframe-yt{
     width: 500px;
     height: 480px;
+    display: none;
 }
 
 
@@ -673,11 +686,13 @@ body{
     justify-content: left;
     position: relative;
     overflow: hidden;
+    display: none;
 }
 
 .reels div{
     position: relative;
     width: 100%;
+    display: none;
 }
 
 
@@ -686,6 +701,7 @@ body{
     display: contents;
     width: 1px !important;
     height: 1px !important;
+    display: none;
 }
 
 .inst-banner{
@@ -694,7 +710,7 @@ body{
     align-items: center;
     justify-content: center;
     margin-bottom: 60px;
-
+    display: none;
 }
 
 .instagram{
@@ -704,6 +720,7 @@ body{
     height: 650px;
     width: 100%;
     padding: 0px 0px 100px 0px;
+    display: none;
 }
 
 .inst-banner a{
@@ -715,6 +732,7 @@ body{
     height: 50px;
     margin: 0;
     text-shadow: 0px 1px 4px #585858;
+    display: none;
 }
 
 
@@ -722,6 +740,7 @@ body{
     content: url(../img/icons/instagram.svg);
     width: 80px;
     height: 80px;
+    display: none;
 }
 
 
@@ -730,6 +749,7 @@ body{
     height: 100%;
     object-fit: cover;
     object-position: center;
+    display: none;
 }
 
 .espace{
@@ -740,12 +760,14 @@ body{
     width: 100px !important;
     height: 100px !important;
     right: 30px;
+    display: none;
 }
 
 .player, .player::before, .player::after {
     width: 100px;
     height: 100px;
     opacity: 0.8;
+    display: none;
 }
 
 .player {
@@ -756,7 +778,7 @@ body{
     transform: translateY(50%) rotate(120deg) skewY(30deg) scaleX(.866);
     cursor: pointer;
     pointer-events: none;
-
+    display: none;
 }
 
 .player::before, .player::after{
@@ -765,6 +787,7 @@ body{
     left: 1px;
     pointer-events: auto;
     content: '';
+    display: none;
 }
 
 
@@ -774,6 +797,7 @@ body{
     border-radius: 20% 20% 20% 53%;
     transform: scaleX(1.155) skewY(-30deg) rotate(-30deg) translateY(-42.3%) 
             skewX(30deg) scaleY(.866) translateX(-24%);
+    display: none;
 }
 
 .player::after{
@@ -782,158 +806,67 @@ body{
     border-radius: 20% 20% 53% 20%;
     transform: scaleX(1.155) skewY(-30deg) rotate(-30deg) translateY(-42.3%) 
             skewX(-30deg) scaleY(.866) translateX(24%);
+    display: none;
 }
 
 
-
-
-
-/* RODAPÉ DO SITE*/
-
-.footer{
-    background: #001737;
-    width: 100%;
-    height: 150px;
-    position: relative;
-    bottom: 1px;
-}
-
-.footer-main{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 1200px;
-    height: 150px;
-    margin: 0 auto;
-}
-
-.logo-bottom{
-    width: 200px;
-    height: 100px;
-    padding-bottom: 130px;
-}
-
-.logo-bottom img{
-    width: 200px;
-    height: 130px;
-    filter: grayscale(100%) contrast(50%);
+    html {
+        width: 100%;
+        
+    }
     
+    .header{
+        width: 300px;
+        background: #001737;
+    }
+
+    .main-container{
+        width: 300px;
+    }
+
+    .produtos{
+        width: 300px;
+    }
+
+    .container-servicos{
+        width: 300px;
+    }
+
+    .sua-musica{
+        width: 300px;
+    }
+
+    .container-music{
+        width: 300px;
+    }
+
+    .grid-musicas{
+        width: 300px;
+    }
+
+    .button-music-div{
+        width: 300px;
+    }
+
+
+    .youtube{
+        width: 300px;
+    }
+
+    .youtube-video{
+        width: 300px;
+    }
+
+    .button-youtube-div{
+        width: 300px;
+    }
+
+    .yt-minor-banner{
+        width: 300px;
+    }
+
+    .footer-main{
+        width: 300px;
+        display: none;
+    }
 }
-
-
-.contato{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    color: #dbdbdb;
-    width: 360px;
-}
-
-.atend{
-    display: flex;
-    flex-direction: column;
-}
-
-.atendimento{
-    width: 180px;
-}
-
-.atend{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: left;
-    margin-bottom: 5px;
-}
-
-
-.atendimento h4{
-    text-align: center;
-    padding-bottom: 10px;
-}
-
-
-.atendimento p{
-    font-size: 15px;
-    font-weight: 400;
-}
-
-
-.icon-mail{
-    content: url(../img/icons/email.svg);
-    width: 20px;
-    height: 20px;
-    margin-right: 5px;
-}
-
-.icon-phone{
-    content: url(../img/icons/phone.svg);
-    width: 20px;
-    height: 20px;
-    margin-right: 5px;
-}
-
-
-
-.redes-sociais{
-    width: 150px;
-    text-align: center;
-    padding-bottom: 30px;
-}
-
-.redes-sociais h4{
-    padding-bottom: 10px;
-}
-
-
-.flex-redes{
-    margin: 0 auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 140px;
-}
-
-.soc-icon{
-    width: 40px;
-    height: 40px;
-    background: #dbdbdb;
-    border-radius: 100px 100px 100px 100px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.soc-insta{
-    content: url(../img/icons/instagram.svg);
-    width: 30px;
-    height: 30px;
-    
-}
-
-.soc-ytb{
-    content: url(../img/icons/youtube-fill.svg);
-    width: 30px;
-    height: 30px;
-}
-
-.soc-whats{
-    content: url(../img/icons/whatsapp.svg);
-    width: 30px;
-    height: 30px;
-}
-
-
-.line-footer{
-    width: 100%;
-    height: 60px;
-    background: #191B1D;
-    text-align: center;
-}
-
-.line-footer{
-    color: #FFFFFF;
-    padding: 20px 0px 30px;
-}
-
