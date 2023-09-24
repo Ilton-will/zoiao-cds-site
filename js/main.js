@@ -24,14 +24,17 @@ function clickModal(modal) {
 
 
 
-
 function scrollando() {
     if(window.scrollY !==0){
-        header.classList.add("hidden-active")
-        header.classList.remove("hidden")
-        header.classList.remove("hidden-defalt")
+        if (screen.width > 415){
+            header.classList.add("hidden-active")
+            header.classList.remove("hidden")
+            header.classList.remove("hidden-defalt")
+        }
+        
     }
     else{
+
         header.classList.remove("hidden-active")
         header.classList.add("hidden-defalt")
     }
